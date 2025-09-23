@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Calculator</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<main>
+		
+			<input id="inputOne" type="number"> First Number
+			<!-- <input id="inputOneButt" type="button" value="First Number"> -->
+			<input id="inputTwo" type="number"> Second Number
+			<!-- <input id="inputTwoButt" type="button" value="Second Number"> -->
+		
+			<input type="radio" name="Operator" id="Addition" value="Addition">
+				<label for="Addition">Add</label>
+			<input type="radio" name="Operator" id="Subtraction" value="Subtraction">
+				<label for="Subtraction">Subtract</label>
+			<input type="radio" name="Operator" id="Multiplication" value="Multiplication">
+				<label for="Multiplication">Multiply</label>
+			<input type="radio" name="Operator" id="Division" value="Division">
+				<label for="Division">Divide</label>
+			
+			<input type="button" value="Enter" id="enterButt">
+		<h1 id="output"></h1>
+		</main>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
